@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">多媒体功能测试</string>
+    <string name="btn_start">开始测试</string>
+    <string name="test_lcd">液晶屏测试</string>
+    <string name="test_ts">触摸屏测试</string>
+    <string name="test_led">发光二极管测试</string>
+    <string name="test_12v">12V开关测试</string>
+    <string name="test_beep">蜂鸣器测试</string>
+    <string name="test_fan">风扇测试</string>
+    <string name="test_backlight">背光测试</string>
+    <string name="test_keyboard">按键测试</string>
+    <string name="test_battery">电池测试</string>
+    <string name="test_adc">数模转换测试</string>
+    <string name="test_sn">SN码测试</string>
+    <string name="test_gsensor">重力传感器测试</string>
+    <string name="test_gyroscope">陀螺仪测试</string>
+	<string name="test_magnetic">指南针测试</string>
+	<string name="test_light">光线传感器测试</string>
+    <string name="test_audio">音频测试</string>
+    <string name="test_backcamera">后置摄像头测试</string>
+	<string name="test_frontcamera">前置摄像头测试</string>
+    <string name="test_wifi">无线网络测试</string>
+    <string name="test_network">网络连接测试</string>
+    <string name="test_serial">串口测试</string>
+    <string name="test_sdcard">外部存储卡测试</string>
+    <string name="test_udisk">优盘测试</string>
+
+    <!-- 描述数字键盘按下 -->
+    <string name="numeric_keyboard_down">numeric keyboard down</string>
+    <!-- 描述数字键盘弹起 -->
+    <string name="numeric_keyboard_up">numeric keyboard up</string>
+    <!-- 描述数字键盘取消 -->
+    <string name="numeric_keyboard_cancel">numeric keyboard cancel</string>
+    <string name="please_input_pwd">请输入密码</string>
+    <string name="please_input_pwd_in">请输入锁屏密码</string>
+    <string name="please_input_pwd_again">请确认密码</string>
+    <string name="please_again_pwd">请重新输入</string>
+    <string name="not_equals">两次输入的密码不一致,请重新输入！</string>
+    <string name="setting_pwd_success">密码设置成功！</string>
+    <string name="forget_pwd">修改密码?</string>
+    <string name="delete">删除</string>
+
+    <string name="startRecord">开始录音</string>
+    <string name="stopRecord">结束录音</string>
+    <string name="startPlay">开始播放</string>
+    <string name="stopPlay">结束播放</string>
+
+    <string name="community_chat_list_remove_above_cancel_send">手指上滑，取消发送</string>
+    <string name="community_chat_list_loosen_cancel_send">松开手指，取消发送</string>
+    <string name="community_chat_list_rec_voice_short">录音时间太短</string>
+    <string name="community_chat_list_rec_voice_failure">录音失败！</string>
+
+</resources>

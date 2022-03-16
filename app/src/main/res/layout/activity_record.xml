@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAlphaWhite50"
+    android:orientation="vertical"
+    tools:context=".RecordActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:text="录音与播放"
+        android:textColor="@color/colorAlphaWhite100"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorBlueAlpha"
+        android:gravity="center"
+        android:text="-------------------系统自带录音-------------------"
+        android:textColor="@color/colorAlphaWhite100"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sys_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开系统录音机" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorBlueAlpha"
+        android:gravity="center"
+        android:text="-------------------.3gp格式录音-------------------"
+        android:textColor="@color/colorAlphaWhite100"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/stopRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/stopPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorBlueAlpha"
+        android:gravity="center"
+        android:text="-------------------.MP3格式录音-------------------"
+        android:textColor="@color/colorAlphaWhite100"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMsg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc" />
+
+        <com.byteflow.learnffmpeg.view.RecordAudioButton
+            android:id="@+id/btnVoice"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/community_btn_chat_press_normal"
+            android:text="按住说话"
+            android:textColor="#7e7e7e" />
+
+    </LinearLayout>
+
+</LinearLayout>

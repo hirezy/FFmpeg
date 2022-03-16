@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTest</string>
+    <string name="btn_start">start test</string>
+    <string name="test_lcd">lcd display test</string>
+    <string name="test_ts">touch screen test</string>
+    <string name="test_led">led test</string>
+    <string name="test_12v">12V test</string>
+    <string name="test_beep">beep test</string>
+    <string name="test_fan">fan test</string>
+    <string name="test_backlight">backlight test</string>
+    <string name="test_keyboard">keyboard test</string>
+    <string name="test_battery">battery test</string>
+    <string name="test_adc">adc test</string>
+    <string name="test_sn">sn test</string>
+    <string name="test_gsensor">gsensor test</string>
+    <string name="test_gyroscope">gyroscope test</string>
+    <string name="test_magnetic">magnetic test</string>
+    <string name="test_light">light test</string>
+    <string name="test_audio">audio test</string>
+    <string name="test_backcamera">back camera test</string>
+    <string name="test_frontcamera">front camera test</string>
+    <string name="test_wifi">wifi test</string>
+    <string name="test_network">network test</string>
+    <string name="test_serial">serial test</string>
+    <string name="test_sdcard">sdcard test</string>
+    <string name="test_udisk">udisk test</string>
+    <string name="numeric_keyboard_down">anumeric_keyboard_down</string>
+    <string name="numeric_keyboard_up">numeric_keyboard_upa</string>
+    <string name="numeric_keyboard_cancel">numeric_keyboard_cancela</string>
+    <string name="please_input_pwd">please_input_pwda</string>
+    <string name="please_input_pwd_again">please_input_pwd_againa</string>
+    <string name="not_equals">not_equalsa</string>
+    <string name="setting_pwd_success">setting_pwd_successa</string>
+    <string name="forget_pwd">forget_pwda</string>
+    <string name="delete">deletea</string>
+    <string name="please_again_pwd">please_again_pwda</string>
+    <string name="please_input_pwd_in">please_input_pwd_ina</string>
+    <string name="startRecord">startRecorda</string>
+    <string name="stopRecord">stopRecorda</string>
+    <string name="startPlay">startPlaya</string>
+    <string name="stopPlay">stopPlaya</string>
+    <string name="community_chat_list_remove_above_cancel_send">community_chat_list_remove_above_cancel_senda</string>
+    <string name="community_chat_list_loosen_cancel_send">community_chat_list_loosen_cancel_senda</string>
+    <string name="community_chat_list_rec_voice_short">community_chat_list_rec_voice_shorta</string>
+    <string name="community_chat_list_rec_voice_failure">community_chat_list_rec_voice_failurea</string>
+
+
+    <string name="message_no_permissions" translatable="false">The app cannot work without permissions</string>
+    <string name="label_ok" translatable="false">OK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="cd_take_picture" translatable="false">Take picture</string>
+    <string name="cb_open_gallery" translatable="false">Navigate to Gallery</string>
+    <string name="cb_switch" translatable="false">Switch between front and back cameras</string>
+    <string name="cb_timer" translatable="false">Select a timer</string>
+
+    <string name="select_sample" translatable="false">Select FFmpeg Example</string>
+    <string name="action_resolutions" translatable="false">Resolutions</string>
+    <string name="action_switch_camera" translatable="false">SwitchCamera</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+</resources>
